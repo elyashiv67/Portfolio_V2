@@ -1,0 +1,19 @@
+export default function Contact() {
+  return (
+    <section className="contact" id="contact">
+      <div className="section-label">Contact</div>
+      <h2 className="contact-heading fade-in">Let's work<br />together.</h2>
+      <p className="contact-sub fade-in">
+        Open to freelance projects, full-time roles, and interesting collaborations.
+      </p>
+      <a href="mailto:you@email.com" className="contact-email fade-in">
+        elishivs5@email.com
+      </a>
+      <div className="socials fade-in">
+        <a href="https://github.com/elyashiv67" target={"_blank"}>GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Instagram</a>
+      </div>
+    </section>
+  );
+}
