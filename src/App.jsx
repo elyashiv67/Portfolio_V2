@@ -85,7 +85,7 @@ export default function Portfolio() {
                         <br /><span>Elyashiv Swisa</span><br />
                     </h1>
                     <p className="hero-desc">
-                        I build thoughtful digital experiences — from product design to full-stack engineering. Based in [City].
+                        I build thoughtful digital experiences — from product design to full-stack engineering.
                     </p>
                     <div className="hero-actions">
                         <a href="#work" className="btn-primary">View Work</a>
