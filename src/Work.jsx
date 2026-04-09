@@ -11,7 +11,7 @@ const projects = [
     num: "02",
     title: "to do list ",
     desc: "to do list project with backend in node js and frontend in html",
-    tags: ["node.js" , "html" , "css" , "javascript"],
+    tags: ["node.js" , "html" , "css" , "javascript", "Sql"],
     link: "#",
     gitLink: "https://github.com/elyashiv67/toDoList-2"
   },
@@ -25,19 +25,11 @@ const projects = [
   },
   {
     num: "04",
-    title: "esp simone game",
-    desc: "working simone game connected to esp board",
+    title: "esp escape room",
+    desc: "a little esp project that has 2 boards one acting as a server and one as a client",
     tags: ["c++"],
     link: "#",
-    gitLink: "#"
-  },
-  {
-    num: "05",
-    title: "to do list 3",
-    desc: "working simone game connected to esp board",
-    tags: ["c++"],
-    link: "#",
-    gitLink: "#"
+    gitLink: "https://github.com/elyashiv67/esp_escape_room"
   }
 ];
 
@@ -57,9 +49,11 @@ export default function Work() {
               ))}
             </div>
             {p.link !== "#" && (
-                <a href={p.link} className="project-link">View Project →</a>
+                <a href={p.link} className="project-link" target={"_blank"}>View Project →</a>
             )}
-            <a href={p.gitLink} className="project-link">View Github Repository →</a>
+            {p.gitLink !== "#" && (
+                <a href={p.gitLink} className="project-link" target={"_blank"}>View Github Repository →</a>
+            )}
           </div>
         ))}
       </div>
