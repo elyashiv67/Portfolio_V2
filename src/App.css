@@ -261,3 +261,25 @@ footer span { font-size: 0.75rem; color: var(--muted); letter-spacing: 0.05em; }
   footer { flex-direction: column; gap: 0.5rem; text-align: center; }
   .nav-links { gap: 1.5rem; }
 }
+
+
+@media (hover: none) and (pointer: coarse), (max-width: 768px) {
+  .cursor,
+  .cursor-dot,
+  .cursor-ring {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+  }
+
+  body {
+    cursor: auto !important;
+  }
+
+  a,
+  .btn-primary,
+  .btn-ghost,
+  .project-link {
+    cursor: pointer !important;
+  }
+}
