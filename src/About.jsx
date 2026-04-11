@@ -13,10 +13,16 @@ export default function About() {
             I'm a software developer with a curios mind and a desire to keep learning more and more.
           </p>
           <p>
+            I live in the north in moshav menahamia, and im open for relocation if needed.
+          </p>
+          <p>
             Currently i am a police officer in the cyber division, stationd in afula police station, this job give me creativety and ressilance to overcome problems and solve them.
           </p>
           <p>
             With 2 years of experience, most of my experience is from college and personal project, im highly motivated to start my coding career in your company.
+          </p>
+          <p>
+            I also have a degree in practical industrial engineering, from hispin collage before i joined the army.
           </p>
           <p>
             When I'm not coding, you'll find me on my enduro bike riding through canyons or up in the mountains.

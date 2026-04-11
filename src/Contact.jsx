@@ -10,9 +10,9 @@ export default function Contact() {
         elishivs5@email.com
       </a>
       <div className="socials fade-in">
-        <a href="https://github.com/elyashiv67" target={"_blank"}>GitHub</a>
-        <a href="#">LinkedIn</a>
-        <a href="#">Instagram</a>
+        <a href="https://github.com/elyashiv67" target={"_blank"} rel={"noopener noreferrer"}>GitHub</a>
+        <a href="https://www.linkedin.com/in/elyashiv-swisa/" target={"_blank"} rel={"noopener noreferrer"}>LinkedIn</a>
+          <a href="../public/קורות%20חיים-%20אלישיב-2.pdf" target={"_blank"} rel={"noopener noreferrer"}>Resume</a>
       </div>
     </section>
   );

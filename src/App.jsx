@@ -85,7 +85,7 @@ export default function Portfolio() {
                         <br /><span>Elyashiv Swisa</span><br />
                     </h1>
                     <p className="hero-desc">
-                        I build thoughtful digital experiences — from product design to full-stack engineering.
+                       i love to code and learn, also i believe in hard work and dedication.
                     </p>
                     <div className="hero-actions">
                         <a href="#work" className="btn-primary">View Work</a>
@@ -101,7 +101,7 @@ export default function Portfolio() {
             {/* Footer */}
             <footer>
                 <span>© 2025 Elyashiv swisa</span>
-                <span>Designed & built by you</span>
+                <span>Designed & built by me</span>
             </footer>
         </>
     );
