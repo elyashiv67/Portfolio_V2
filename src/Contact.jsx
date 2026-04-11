@@ -12,7 +12,7 @@ export default function Contact() {
       <div className="socials fade-in">
         <a href="https://github.com/elyashiv67" target={"_blank"} rel={"noopener noreferrer"}>GitHub</a>
         <a href="https://www.linkedin.com/in/elyashiv-swisa/" target={"_blank"} rel={"noopener noreferrer"}>LinkedIn</a>
-          <a href="../public/resume.pdf" target={"_blank"} rel={"noopener noreferrer"}>Resume</a>
+          <a href="/resume.pdf" target={"_blank"} rel={"noopener noreferrer"}>Resume</a>
       </div>
     </section>
   );
