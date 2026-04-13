@@ -95,7 +95,7 @@ a:hover {
 
 .hero-bg {
   position: absolute; inset: 0; z-index: 0;
-  background: radial-gradient(ellipse 84% 58% at 68% 40%, #1e2a10 5%, transparent 70%),
+  background: radial-gradient(ellipse 84% 58% at 68% 40%, #1e2a10 5%, transparent 66%),
   radial-gradient(ellipse 51% 46% at 23% 84%, rgba(30, 42, 16, 0.58) 0%, transparent 30%);
 }
 .hero-line {
