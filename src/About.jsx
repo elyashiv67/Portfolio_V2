@@ -1,3 +1,5 @@
+import './About.css'
+
 const skills = ["C#", "JavaScript", "React", "Node.js", "SQL", "Git", "Arduino", "C++", "Html", "Css" ];
 
 export default function About() {

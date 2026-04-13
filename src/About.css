@@ -1,0 +1,26 @@
+.about { border-top: 1px solid var(--border); }
+.about-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start;
+}
+.about-heading {
+    font-family: var(--serif); font-style: italic;
+    font-size: clamp(2.5rem, 5vw, 4.5rem); line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+.about-body {
+    color: var(--muted);
+    line-height: 1.85;
+    font-size: clamp(1.2rem, 1.5vw, 1.2rem);
+
+}
+.about-body p + p { margin-top: 1.2rem; }
+.skills-list {
+    display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 2rem;
+}
+.skill-tag {
+    font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--text); border: 1px solid var(--border);
+    padding: 0.35rem 0.8rem; border-radius: 2px;
+    transition: border-color 0.2s, color 0.2s;
+}
+.skill-tag:hover { border-color: var(--accent); color: var(--accent); }

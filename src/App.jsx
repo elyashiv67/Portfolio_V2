@@ -85,7 +85,7 @@ export default function Portfolio() {
                         <br /><span>Elyashiv Swisa</span><br />
                     </h1>
                     <p className="hero-desc">
-                       i love to code and learn, also i believe in hard work and dedication.
+                        I have a deep love for coding and lifelong learning, driven by a strong belief in hard work and dedication.
                     </p>
                     <div className="hero-actions">
                         <a href="#work" className="btn-primary">View Work</a>

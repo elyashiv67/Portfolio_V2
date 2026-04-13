@@ -1,0 +1,36 @@
+.work { border-top: 1px solid var(--border); }
+.projects-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 1.5px; background: var(--border);
+}
+.project-card {
+    background: var(--bg); padding: 2.4rem;
+    transition: background 0.2s;
+    display: flex; flex-direction: column; gap: 1.2rem;
+}
+.project-card:hover { background: var(--surface); }
+.project-num {
+    font-family: var(--serif); font-style: italic;
+    color: var(--accent); font-size: 1rem;
+}
+.project-title {
+    font-size: 1.5rem; font-weight: 700; line-height: 1.3;
+}
+.project-desc { color: var(--muted); font-size: 0.95rem; line-height: 1.7; flex: 1; }
+.project-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.project-tag {
+    font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--muted); background: var(--border); padding: 0.25rem 0.6rem; border-radius: 2px;
+}
+.project-link {
+    align-self: flex-start; color: var(--accent); font-size: 0.78rem;
+    letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none;
+    display: flex; align-items: center; gap: 0.4rem;
+    transition: gap 0.2s;
+    cursor: none;
+    transition: all 0.5s ease;
+}
+.project-link:hover {
+    gap: 0.8rem;
+    transform: scale(1.2);
+}

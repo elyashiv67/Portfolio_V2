@@ -1,3 +1,5 @@
+import './Work.css';
+
 const projects = [
   {
     num: "01",
