@@ -24,3 +24,14 @@
     transition: border-color 0.2s, color 0.2s;
 }
 .skill-tag:hover { border-color: var(--accent); color: var(--accent); }
+
+@media (max-width: 768px) {
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.about-heading{
+    text-align: center;
+    justify-self: center;
+}
+}
