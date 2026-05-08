@@ -12,16 +12,16 @@ export default function About() {
         </h2>
         <div className="about-body fade-in">
           <p>
-            I'm a software developer with a curios mind and a desire to keep learning more and more.
+            I'm a software developer with a curios mind and a desire to keep learning .
           </p>
           <p>
             I live in the north in moshav menahamia, and im open for relocation if needed.
           </p>
           <p>
-            Currently i am a police officer in the cyber division, stationd in afula police station, this job give me creativety and ressilance to overcome problems and solve them.
+            By day i am a police officer in the cyber division, stationd in afula police station, and by night (im batman) learning practical software engineering in kinneret.
           </p>
           <p>
-            With 2 years of experience, most of my experience is from college and personal project, im highly motivated to start my coding career in your company.
+            With 2 years of experience, my experience is from college and personal project, im highly motivated to start my coding career in your company.
           </p>
           <p>
             I also have a degree in practical industrial engineering, from hispin collage before i joined the army.

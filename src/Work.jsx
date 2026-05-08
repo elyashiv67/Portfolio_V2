@@ -11,14 +11,22 @@ const projects = [
   },
   {
     num: "02",
-    title: "to do list ",
-    desc: "to do list project with backend in node js and frontend in html",
+    title: "Full Stack To-Do List",
+    desc: "to do list project with backend in node js and frontend in html , its my first server that i connect to it 2 fronts",
     tags: ["node.js" , "html" , "css" , "javascript", "Sql"],
-    link: "#",
+    link: "https://todolist-jcvt.onrender.com",
     gitLink: "https://github.com/elyashiv67/toDoList-2"
   },
   {
     num: "03",
+    title: "React Front To-Do List",
+    desc: "for the full stack to do list i used the server i built and did a react front for it , include login , router , context and more",
+    tags: ["React" , "css" , "javascript"],
+    link: "https://to-do-list-react-zhv4.onrender.com",
+    gitLink: "https://github.com/elyashiv67/to-do-list-react"
+  },
+  {
+    num: "04",
     title: "iot with web",
     desc: "an arduino card that has wifi and a website to control leds , and a light sensor that shows precentage of light in the room",
     tags: ["C++" , "Html", "Css", "Javascript"],
@@ -26,7 +34,7 @@ const projects = [
     gitLink: "https://github.com/elyashiv67/iot_with_website"
   },
   {
-    num: "04",
+    num: "05",
     title: "esp escape room",
     desc: "a little esp project that has 2 boards one acting as a server and one as a client",
     tags: ["c++"],
