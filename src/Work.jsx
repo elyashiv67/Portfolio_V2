@@ -12,7 +12,7 @@ const projects = [
   {
     num: "02",
     title: "Full Stack To-Do List",
-    desc: "to do list project with backend in node js and frontend in html , its my first server that i connect to it 2 fronts",
+    desc: "to do list project with backend in node js and frontend in html , its my first server and it has 2 fronts",
     tags: ["node.js" , "html" , "css" , "javascript", "Sql"],
     link: "https://todolist-jcvt.onrender.com",
     gitLink: "https://github.com/elyashiv67/toDoList-2"

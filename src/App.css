@@ -20,22 +20,22 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--sans);
-  cursor: none;
+  /*cursor: none;*/
 }
 
 /* Custom cursor */
-.cursor {
-  position: fixed; top: 0; left: 0; z-index: 9999;
-  pointer-events: none;
-  mix-blend-mode: difference;
-}
-.cursor-dot {
-  width: 12px; height: 12px;
-  background: var(--accent);
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  transition: transform 0.1s;
-}
+/*.cursor {*/
+/*  position: fixed; top: 0; left: 0; z-index: 9999;*/
+/*  pointer-events: none;*/
+/*  mix-blend-mode: difference;*/
+/*}*/
+/*.cursor-dot {*/
+/*  width: 12px; height: 12px;*/
+/*  background: var(--accent);*/
+/*  border-radius: 50%;*/
+/*  transform: translate(-50%, -50%);*/
+/*  transition: transform 0.1s;*/
+/*}*/
 /*.cursor-ring {*/
 /*  width: 36px; height: 36px;*/
 /*  border: 1.5px solid var(--accent);*/
@@ -43,7 +43,7 @@ body {
 /*  transform: translate(-50%, -50%);*/
 /*  transition: transform 0.18s ease, width 0.18s, height 0.18s;*/
 /*}*/
-.cursor.hovering .cursor-ring { width: 60px; height: 60px; }
+/*.cursor.hovering .cursor-ring { width: 60px; height: 60px; }*/
 
 /* Nav */
 nav {
@@ -72,7 +72,7 @@ nav.scrolled {
 .nav-links a:hover { color: var(--accent); }
 
 a{
-  cursor: none;
+  /*cursor: none;*/
   transition: all 0.5s ease-in-out;
 }
 a:hover {
@@ -133,7 +133,8 @@ a:hover {
   padding: 0.85rem 2rem; border: 1px solid transparent; border-radius: 2px;
   font-family: var(--sans); font-size: 0.8rem; font-weight: 700;
   letter-spacing: 0.1em; text-transform: uppercase;
-  cursor: none; text-decoration: none;
+  /*cursor: none; */
+  text-decoration: none;
   transition: transform 0.15s, box-shadow 0.15s;
 }
 .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(200,245,66,0.25); }
@@ -141,7 +142,8 @@ a:hover {
   background: transparent; color: var(--text);
   padding: 0.85rem 2rem; border: 1px solid var(--border); border-radius: 2px;
   font-family: var(--sans); font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase;
-  cursor: none; text-decoration: none;
+  /*cursor: none; */
+  text-decoration: none;
   transition: border-color 0.2s, color 0.2s;
 }
 .btn-ghost:hover {
@@ -187,13 +189,13 @@ footer span { font-size: 0.75rem; color: var(--muted); letter-spacing: 0.05em; }
 
 
 @media (hover: none) and (pointer: coarse), (max-width: 768px) {
-  .cursor,
-  .cursor-dot,
-  .cursor-ring {
-    display: none !important;
-    opacity: 0 !important;
-    visibility: hidden !important;
-  }
+  /*.cursor,*/
+  /*.cursor-dot,*/
+  /*.cursor-ring {*/
+  /*  display: none !important;*/
+  /*  opacity: 0 !important;*/
+  /*  visibility: hidden !important;*/
+  /*}*/
 
   body {
     cursor: auto !important;

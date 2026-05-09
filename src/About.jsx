@@ -18,7 +18,7 @@ export default function About() {
             I live in the north in moshav menahamia, and im open for relocation if needed.
           </p>
           <p>
-            By day i am a police officer in the cyber division, stationd in afula police station, and by night (im batman) learning practical software engineering in kinneret.
+            By day i am a police officer in the cyber division, stationd in afula police station, and by night (im batman jk) learning practical software engineering in kinneret.
           </p>
           <p>
             With 2 years of experience, my experience is from college and personal project, im highly motivated to start my coding career in your company.
