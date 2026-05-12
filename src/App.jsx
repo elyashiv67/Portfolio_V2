@@ -41,6 +41,16 @@ function useFadeIn() {
     }, []);
 }
 
+function useWakeServer() {
+    useEffect(() => {
+        // Replace with your actual Render server URL
+        fetch('https://todolist-jcvt.onrender.com/ping')
+            .then(res => res.json())
+            .then(data => console.log('Server status:', data.message))
+            .catch(err => console.error('Error waking up server:', err));
+    }, []);
+}
+
 function useScrolled() {
     const [scrolled, setScrolled] = useState(false);
     useEffect(() => {
@@ -55,6 +65,7 @@ export default function Portfolio() {
     const { dotRef, ringRef, hovering } = useCursor();
     useFadeIn();
     const scrolled = useScrolled();
+    useWakeServer();
 
     return (
         <>
